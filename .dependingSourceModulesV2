@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies>
+    <module scmtype="git" revision="ADD_AUTHENTICATION_SUPPORT" url="git://github.com/eilers/httpriot.git" module="httpriot" />
+</dependencies>
