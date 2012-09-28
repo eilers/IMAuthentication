@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F83707BA16160F8500CA7AFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F83707B916160F8500CA7AFA /* Foundation.framework */; };
+		F83707BF16160F8500CA7AFA /* IMAuthentication.h in Sources */ = {isa = PBXBuildFile; fileRef = F83707BE16160F8500CA7AFA /* IMAuthentication.h */; };
+		F83707C116160F8500CA7AFA /* IMAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = F83707C016160F8500CA7AFA /* IMAuthentication.m */; };
+		F83707C916160F8500CA7AFA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F83707C816160F8500CA7AFA /* SenTestingKit.framework */; };
+		F83707CB16160F8500CA7AFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F83707CA16160F8500CA7AFA /* UIKit.framework */; };
+		F83707CC16160F8500CA7AFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F83707B916160F8500CA7AFA /* Foundation.framework */; };
+		F83707CF16160F8500CA7AFA /* libIMAuthentication.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F83707B616160F8500CA7AFA /* libIMAuthentication.a */; };
+		F83707D516160F8500CA7AFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F83707D316160F8500CA7AFA /* InfoPlist.strings */; };
+		F83707D816160F8500CA7AFA /* IMAuthenticationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F83707D716160F8500CA7AFA /* IMAuthenticationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F83707CD16160F8500CA7AFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F83707AD16160F8500CA7AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F83707B516160F8500CA7AFA;
+			remoteInfo = IMAuthentication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F83707B416160F8500CA7AFA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F83707B616160F8500CA7AFA /* libIMAuthentication.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIMAuthentication.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83707B916160F8500CA7AFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F83707BD16160F8500CA7AFA /* IMAuthentication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IMAuthentication-Prefix.pch"; sourceTree = "<group>"; };
+		F83707BE16160F8500CA7AFA /* IMAuthentication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.objj.h; path = IMAuthentication.h; sourceTree = "<group>"; };
+		F83707C016160F8500CA7AFA /* IMAuthentication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMAuthentication.m; sourceTree = "<group>"; };
+		F83707C716160F8500CA7AFA /* IMAuthenticationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMAuthenticationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83707C816160F8500CA7AFA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F83707CA16160F8500CA7AFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F83707D216160F8500CA7AFA /* IMAuthenticationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IMAuthenticationTests-Info.plist"; sourceTree = "<group>"; };
+		F83707D416160F8500CA7AFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F83707D616160F8500CA7AFA /* IMAuthenticationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.objj.h; path = IMAuthenticationTests.h; sourceTree = "<group>"; };
+		F83707D716160F8500CA7AFA /* IMAuthenticationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMAuthenticationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F83707B316160F8500CA7AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83707BA16160F8500CA7AFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83707C316160F8500CA7AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83707C916160F8500CA7AFA /* SenTestingKit.framework in Frameworks */,
+				F83707CB16160F8500CA7AFA /* UIKit.framework in Frameworks */,
+				F83707CC16160F8500CA7AFA /* Foundation.framework in Frameworks */,
+				F83707CF16160F8500CA7AFA /* libIMAuthentication.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F83707AB16160F8500CA7AFA = {
+			isa = PBXGroup;
+			children = (
+				F83707BB16160F8500CA7AFA /* IMAuthentication */,
+				F83707D016160F8500CA7AFA /* IMAuthenticationTests */,
+				F83707B816160F8500CA7AFA /* Frameworks */,
+				F83707B716160F8500CA7AFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F83707B716160F8500CA7AFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F83707B616160F8500CA7AFA /* libIMAuthentication.a */,
+				F83707C716160F8500CA7AFA /* IMAuthenticationTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F83707B816160F8500CA7AFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F83707B916160F8500CA7AFA /* Foundation.framework */,
+				F83707C816160F8500CA7AFA /* SenTestingKit.framework */,
+				F83707CA16160F8500CA7AFA /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F83707BB16160F8500CA7AFA /* IMAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				F83707BE16160F8500CA7AFA /* IMAuthentication.h */,
+				F83707C016160F8500CA7AFA /* IMAuthentication.m */,
+				F83707BC16160F8500CA7AFA /* Supporting Files */,
+			);
+			path = IMAuthentication;
+			sourceTree = "<group>";
+		};
+		F83707BC16160F8500CA7AFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F83707BD16160F8500CA7AFA /* IMAuthentication-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F83707D016160F8500CA7AFA /* IMAuthenticationTests */ = {
+			isa = PBXGroup;
+			children = (
+				F83707D616160F8500CA7AFA /* IMAuthenticationTests.h */,
+				F83707D716160F8500CA7AFA /* IMAuthenticationTests.m */,
+				F83707D116160F8500CA7AFA /* Supporting Files */,
+			);
+			path = IMAuthenticationTests;
+			sourceTree = "<group>";
+		};
+		F83707D116160F8500CA7AFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F83707D216160F8500CA7AFA /* IMAuthenticationTests-Info.plist */,
+				F83707D316160F8500CA7AFA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F83707B516160F8500CA7AFA /* IMAuthentication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F83707DB16160F8500CA7AFA /* Build configuration list for PBXNativeTarget "IMAuthentication" */;
+			buildPhases = (
+				F83707B216160F8500CA7AFA /* Sources */,
+				F83707B316160F8500CA7AFA /* Frameworks */,
+				F83707B416160F8500CA7AFA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMAuthentication;
+			productName = IMAuthentication;
+			productReference = F83707B616160F8500CA7AFA /* libIMAuthentication.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F83707C616160F8500CA7AFA /* IMAuthenticationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F83707DE16160F8500CA7AFA /* Build configuration list for PBXNativeTarget "IMAuthenticationTests" */;
+			buildPhases = (
+				F83707C216160F8500CA7AFA /* Sources */,
+				F83707C316160F8500CA7AFA /* Frameworks */,
+				F83707C416160F8500CA7AFA /* Resources */,
+				F83707C516160F8500CA7AFA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F83707CE16160F8500CA7AFA /* PBXTargetDependency */,
+			);
+			name = IMAuthenticationTests;
+			productName = IMAuthenticationTests;
+			productReference = F83707C716160F8500CA7AFA /* IMAuthenticationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F83707AD16160F8500CA7AFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = IntelligentMobiles;
+			};
+			buildConfigurationList = F83707B016160F8500CA7AFA /* Build configuration list for PBXProject "IMAuthentication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F83707AB16160F8500CA7AFA;
+			productRefGroup = F83707B716160F8500CA7AFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F83707B516160F8500CA7AFA /* IMAuthentication */,
+				F83707C616160F8500CA7AFA /* IMAuthenticationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F83707C416160F8500CA7AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83707D516160F8500CA7AFA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F83707C516160F8500CA7AFA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F83707B216160F8500CA7AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83707BF16160F8500CA7AFA /* IMAuthentication.h in Sources */,
+				F83707C116160F8500CA7AFA /* IMAuthentication.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83707C216160F8500CA7AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83707D816160F8500CA7AFA /* IMAuthenticationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F83707CE16160F8500CA7AFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F83707B516160F8500CA7AFA /* IMAuthentication */;
+			targetProxy = F83707CD16160F8500CA7AFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F83707D316160F8500CA7AFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F83707D416160F8500CA7AFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F83707D916160F8500CA7AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F83707DA16160F8500CA7AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F83707DC16160F8500CA7AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/IMAuthentication.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IMAuthentication/IMAuthentication-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F83707DD16160F8500CA7AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/IMAuthentication.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IMAuthentication/IMAuthentication-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F83707DF16160F8500CA7AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IMAuthentication/IMAuthentication-Prefix.pch";
+				INFOPLIST_FILE = "IMAuthenticationTests/IMAuthenticationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F83707E016160F8500CA7AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IMAuthentication/IMAuthentication-Prefix.pch";
+				INFOPLIST_FILE = "IMAuthenticationTests/IMAuthenticationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F83707B016160F8500CA7AFA /* Build configuration list for PBXProject "IMAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F83707D916160F8500CA7AFA /* Debug */,
+				F83707DA16160F8500CA7AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F83707DB16160F8500CA7AFA /* Build configuration list for PBXNativeTarget "IMAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F83707DC16160F8500CA7AFA /* Debug */,
+				F83707DD16160F8500CA7AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F83707DE16160F8500CA7AFA /* Build configuration list for PBXNativeTarget "IMAuthenticationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F83707DF16160F8500CA7AFA /* Debug */,
+				F83707E016160F8500CA7AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F83707AD16160F8500CA7AFA /* Project object */;
+}
